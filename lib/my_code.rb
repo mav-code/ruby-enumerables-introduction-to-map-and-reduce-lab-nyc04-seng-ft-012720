@@ -60,7 +60,7 @@ def reduce_to_any_true(source_array)
     output = false
   while index < source_array.length
       if source_array[index] = true
-        output = ture
+        output = true
       end
       index += 1
     end

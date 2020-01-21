@@ -26,3 +26,10 @@ end
 
 map_to_square(source_array)
   output = Array.new
+  index = 0
+    while index < source_array.length
+    output << source_array[index] * source_array[index]
+    index += 1
+  end
+  return output
+end

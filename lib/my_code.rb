@@ -18,8 +18,11 @@ def map_to_double(source_array)
   output = Array.new
   index = 0
     while index < source_array.length
-    output << 0 - source_array[index]
+    output << source_array[index] * 2
     index += 1
   end
   return output
 end
+
+map_to_square(source_array)
+  output = Array.new

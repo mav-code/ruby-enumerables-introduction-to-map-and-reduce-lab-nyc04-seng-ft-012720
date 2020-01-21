@@ -24,7 +24,7 @@ def map_to_double(source_array)
   return output
 end
 
-map_to_square(source_array)
+def map_to_square(source_array)
   output = Array.new
   index = 0
     while index < source_array.length
